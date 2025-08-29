@@ -1,0 +1,30 @@
+// kode for a og b;
+
+public class Oppgaveg1 {
+    public static void main(String[] args) {
+        int n = 10;
+
+        for(int i = 1;i <= n; i++){
+            System.out.println(i);
+        }
+
+    }
+}
+
+
+// kode for c;
+
+public class Oppgaveg1 {
+    public static void main(String[] args) {
+        int n = 7;
+
+        for(int i = 1;i < n; i++){
+            System.out.println(i);
+        }
+
+    }
+}
+
+// tar vekk likhetstegnet, da vil koden printe alle tallene opp til n, når eg setter ulike verdier for n vil programmet printe de verdier opp til den verdien eg setter for n,
+// når n settes til - vil ikke betingelsen gå i hop, betingelsene i programmet er at løkken kjører så lenge i er mindre enn n, når vi setter -n vil i alltid være større enn
+// n, noe som er feil i forhold til betingelsen i<n, og programmet starter dermed ikke.
